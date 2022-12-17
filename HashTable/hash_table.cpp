@@ -9,7 +9,7 @@ HT_Node<K,V>::HT_Node() {
 	next = nullptr;
 }
 template<class K, class V>
-HT_Node<K, V>::HT_Node(K key, V value) {
+HT_Node<K, V>::HT_Node(const K& key, const V& value) {
 	this->key = key;
 	this->value = value;
 	next = nullptr;
